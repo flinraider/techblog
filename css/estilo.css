@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'trebuchet';
+  src: url('../font/trebuchet-ms.ttf');
+}
+/*--Formatações gerais--*/
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+a:link, a:visited{
+  color: #30a0a0;
+}
+a:hover{
+  text-decoration: underline;
+}
+h2{
+  color: #30a0a0;
+}
+h3{
+  color: #565656;
+  background-color: #ccc;
+  padding: 5px;
+}
+body{
+  font-family: 'trebuchet';
+  font-size: 1em;
+  background-color: #e6e6e6;
+}
+/*--Classes--*/
+.blog{
+  color: #30a0a0;
+}
+.postagem{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+}
+.data-postagem{
+  font-size: .8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.conteudo-lateral{
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.postagem-lateral{
+  font-size: .8em;
+  padding: 5px;
+  border-bottom: 1px dotted #ccc;
+}
+/*-- layout id --*/
+#area-logo h1{
+  color: #fff;
+  font-size: 2.5em;
+}
+#area-cabecalho{
+  background-color: #222;
+  padding: 15px;
+  text-align: center;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+#area-cabecalho a:hover{
+  color: #30a0a0;
+  background-color: #fff;
+  text-decoration: none;
+}
+#area-logo, #area-menu{
+  padding: 10px;
+}
+#area-principal{
+  background-color: #e6e6e6;
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+}
+#area-postagens{
+  width: 660px;
+  float: left;
+}
+#area-lateral{
+  width: 240px;
+  float: right;
+}
+#rodape{
+  background-color: #222;
+  color: #30a0a0;
+  clear: both;
+  text-align: center;
+  padding: 15px;
+}
